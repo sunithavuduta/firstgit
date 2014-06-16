@@ -1,0 +1,28 @@
+    1  git --version
+    2  cd desktop
+    3  mkdir lib
+    4  cd lib
+    5  pwd
+    6  vi test
+    7  cat test
+    8  git add .
+    9  git init
+   10  git add .
+   11  git commit
+   12  git log
+   13  echo 'some more data' >> test
+   14  cat test
+   15  git commit -m 'changed the test file again'
+   16  git commit -a -m 'changed test file again'
+   17  git log
+   18  git log --pretty
+   19  clear
+   20  git log
+   21  git branch
+   22  git remote add github git@github.com:sunithavuduta/firstgit.git
+   23  git branch
+   24  git remote -v
+   25  git push github master
+   26  git log
+   27  git history > commands.txt
+   28  history > commands.txt
